@@ -1,4 +1,4 @@
-import { Box, Container, Link , Text ,Image, Button, VStack,Divider, Heading} from "@chakra-ui/react"
+import { Box, Container, Link , Text ,Image,Divider, Heading} from "@chakra-ui/react"
 
 
 
@@ -186,7 +186,7 @@ function Home(){
         
         <Box padding={"50px"}  backgroundColor={"#093796"}>
             <Container maxW='70%'display={"grid"} gridTemplateColumns="repeat(6, 1fr)" gap={"20px"}  marginTop={"100px"}>
-        {data.map((item)=>(<Box ><Link color={"#f9dc04"}><Box overflow='hidden' backgroundColor="white" borderRadius={"50%"} padding={"20px"}  border={"3px solid #4c7ee9"}><img  src={item.image}/></Box><Text marginTop="10px" fontSize='sm'>{item.title}</Text></Link></Box>))}
+        {data.map((item)=>(<Box ><Link color={"#f9dc04"}><Box overflow='hidden' backgroundColor="white" borderRadius={"50%"} padding={"20px"}  border={"3px solid #4c7ee9"}><Image  src={item.image}/></Box><Text marginTop="10px" fontSize='sm'>{item.title}</Text></Link></Box>))}
     </Container></Box>
 
 
@@ -195,16 +195,7 @@ function Home(){
     </Box>
 
 
-    <Box display={"grid"} gridTemplateColumns="repeat(2, 1fr)" gap={"20px"} marginTop="40px" border={"3px solid black"}  marginLeft="10px" marginRight={"10px"}>
-        <VStack border={"1px solid red"}>
-            <Button width={"100px"}>Outlet Deals</Button>
-            <Box></Box>
-        </VStack>
-        <Box border={"1px solid red"}>
-            <Button>Gift ideas by price</Button>
-        </Box>
-    </Box>
-    <Box></Box>
+    
 
 
     <Box display={"grid"} gridTemplateColumns="repeat(3, 1fr)" gap={"20px"}  marginLeft="10px" marginRight={"10px"} marginTop="40px">

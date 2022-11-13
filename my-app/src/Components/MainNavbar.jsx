@@ -1,4 +1,4 @@
-import { Box , HStack, Input , Text, VStack } from "@chakra-ui/react";
+import { Box , HStack, Input , Text } from "@chakra-ui/react";
 
 
 function MainNavbar(){

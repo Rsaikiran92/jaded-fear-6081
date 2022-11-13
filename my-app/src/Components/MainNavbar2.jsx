@@ -1,6 +1,6 @@
 import { Box , Link ,PopoverTrigger,PopoverContent,PopoverArrow,PopoverHeader,PopoverBody,PopoverCloseButton,Button,Popover} from '@chakra-ui/react'
 import {ChevronDownIcon} from "@chakra-ui/icons"
-import {Navigate} from "react-router-dom"
+
 
 function MainNavbar2(){
     return (<Box bg='#0046be' w='100%' p={4} color='white' display={"flex"} justifyContent="space-between" paddingRight={"30px"} paddingLeft="30px">
